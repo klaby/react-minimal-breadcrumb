@@ -1,0 +1,31 @@
+{
+  "name": "react-minimal-breadcrumb",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/hiukky/react-minimal-breadcrumb.git",
+  "author": "Romullo <developermarsh@gmail.com>",
+  "scripts": {
+    "test": "react-scripts test --passWithNoTests",
+    "build": "./node_modules/.bin/babel src -d dist"
+  },
+  "keywords": [
+    "react",
+    "breadcrumbs",
+    "react-router-5"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-router-dom": "^5.0.1"
+  }
+}
